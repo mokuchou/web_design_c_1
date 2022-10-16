@@ -34,18 +34,38 @@ body:not(.section, .content)>*,
     flex-basis: calc(100% - 25px);
     display: flex;
     flex-direction: column;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
 }
 
 .menu_header{
-    
+    font-size: 24px;
+    color: #FF00FF;
 }
-table{}
+table{
+    margin: auto;
+}
 tr{}
-td{}
+td{
+    border-bottom: 1px solid black;
+}
 
-a{}
+.menu > a{
+    background-image: url('../images/menu1.png');
+    background-repeat: no-repeat;
+    flex-basis: 35px;
+    width: 215px;
+    margin-top: 10px;
+}
+.menu > a:hover{
+    background-image: url('../images/menu2.png');
+    background-repeat: no-repeat;
+}
 .update{
     flex-basis: 25px;
+    color: #000000;
+    font-size: 16px;
 }
 
 .content{
@@ -56,6 +76,8 @@ a{}
 }
 marquee{
     flex-basis: 29px;
+    font-size: 24px;
+    color: #0000FF;
 }
 iframe{
     flex-basis: calc(100% - 29px);
