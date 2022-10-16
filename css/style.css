@@ -43,11 +43,11 @@ body:not(.section, .content)>*,
 .menu_header{
     font-size: 24px;
     color: #FF00FF;
+    margin: 10px auto;
 }
 table{
     margin: auto;
 }
-tr{}
 td{
     border-bottom: 1px solid black;
 }
@@ -58,7 +58,7 @@ td{
     background-position: center;
     flex-basis: 35px;
     width: 215px;
-    margin-top: 20px;
+    margin-bottom: 5px;
     line-height: 35px;
     text-decoration: none;
 }
