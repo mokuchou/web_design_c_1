@@ -1,12 +1,13 @@
 *{
     /* border: 1px solid #999; */
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body:not(.section, .content)>*,
 .section>*,
 .content>*{
-    border: 1px solid #999;
+    border: 1px solid #ccc;
 }
 
 .main{
@@ -54,9 +55,12 @@ td{
 .menu > a{
     background-image: url('../images/menu1.png');
     background-repeat: no-repeat;
+    background-position: center;
     flex-basis: 35px;
     width: 215px;
-    margin-top: 10px;
+    margin-top: 20px;
+    line-height: 35px;
+    text-decoration: none;
 }
 .menu > a:hover{
     background-image: url('../images/menu2.png');
