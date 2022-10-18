@@ -1,0 +1,67 @@
+*{
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+}
+/* .main > * :not(.aside, .section),
+.aside > *,
+.section > *{
+    border: 1px solid #ccc;
+} */
+
+.top,.menu,.update,marquee,iframe,.footer{
+    border: 1px solid #ccc;
+}
+
+.main{
+
+    overflow: hidden;
+    width: 1024px;
+    height: 768px;
+    padding: 0px 12px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 標楷體;
+}
+.top{
+    flex-basis: 1000px;
+    height: 65px;
+}
+.aside{
+    flex-basis: 215px;
+    height: calc(768px - 65px - 20px);
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    flex-basis: calc(100% - 25px);
+    display: flex;
+    flex-direction: column;
+}
+.menu table{
+
+}
+.menu td{
+    border-bottom: 1px solid black;
+}
+.menu a{}
+.update{
+    flex-basis: 25px;
+}
+.section{
+    flex-basis: calc(1000px - 215px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+marquee{
+    flex-basis: 29px;
+}
+iframe{
+    flex-basis: calc(100% - 29px);
+}
+.footer{
+    flex-basis: 1000px;
+    height: 20px;
+}
