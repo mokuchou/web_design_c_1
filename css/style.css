@@ -28,6 +28,9 @@
     flex-basis: 1000px;
     height: 65px;
 }
+.top img{
+    margin: auto;
+}
 .aside{
     flex-basis: 215px;
     height: calc(768px - 65px - 20px);
@@ -38,16 +41,39 @@
     flex-basis: calc(100% - 25px);
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
 }
 .menu table{
-
+    margin: 20px auto;
 }
 .menu td{
+    font-size: 24px;
     border-bottom: 1px solid black;
+    color: #FF00FF;
 }
-.menu a{}
+.menu a{
+    flex-basis: 35px;
+    width: 200px;
+    background-image: url('../images/menu1.png');
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 7.5px;
+    line-height: 35px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-image: url('../images/menu2.png');
+    background-repeat: no-repeat;
+}
 .update{
     flex-basis: 25px;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
 }
 .section{
     flex-basis: calc(1000px - 215px);
@@ -57,6 +83,8 @@
 }
 marquee{
     flex-basis: 29px;
+    font-size: 24px;
+    color: #0000FF;
 }
 iframe{
     flex-basis: calc(100% - 29px);
