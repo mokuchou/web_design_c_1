@@ -1,0 +1,94 @@
+.main,
+header,
+.menu,
+.update,
+marquee,
+iframe,
+footer {
+    border: 1px solid #eee;
+}
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 標楷體;
+}
+
+.main {
+    width: 1024px;
+    height: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0px 12px;
+    text-align: center;
+}
+
+header {
+    flex-basis: 1000px;
+    height: 65px;
+}
+
+aside {
+    flex-basis: 215px;
+    height: calc(768px - 65px - 20px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.menu{
+    flex-basis: calc(100% - 25px);
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+}
+.menu_header table{
+    font-size: 24px;
+    margin: 10px auto;
+    color: #FF00FF;
+}
+.menu_header td{
+    border-bottom: 1px solid black;
+}
+.menu a{
+    background-image: url('../images/menu1.png');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin: 5px auto;
+    line-height: 35px;
+}
+.menu a:hover{
+    background-image: url('../images/menu1.png');
+    background-repeat: no-repeat;
+}
+
+.update{
+    flex-basis: 25px;
+}
+
+section {
+    flex-basis: calc(100% - 215px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+section marquee{
+    flex-basis: 29px;
+    font-size: 24px;
+    color: #0000FF;
+}
+
+section iframe{
+    flex-basis: calc(100% - 29px);
+}
+
+footer {
+    flex-basis: 1000px;
+    height: 20px;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+}
