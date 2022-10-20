@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 標楷體;
+}
 .main,
 .top,
 .menu,
@@ -8,18 +13,13 @@ footer {
     border: 1px solid #eee;
     text-align: center;
 }
-*{
-    box-sizing: border-box;
-    overflow: hidden;
-    font-family: 標楷體;
-}
 .main{
     width: 1024px;
     height: 768px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    padding: 0px 12px;
+    padding: 0px 10px;
 }
 .top{
     flex-basis: 1000px;
@@ -64,7 +64,7 @@ aside{
     font-size: 16px;
 }
 .content{
-    flex-basis: calc(997px - 215px);
+    flex-basis: calc(1000px - 215px);
     height: calc(768px - 65px - 20px);
     display: flex;
     flex-direction: column;
